@@ -7,7 +7,7 @@ echo "input coment/description"
 read input
 
 git commit -m $input
-git push -u origin master
+git push -u origin main
 git status
 
 echo "done"
